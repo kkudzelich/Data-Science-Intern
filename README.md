@@ -17,10 +17,10 @@ The Client XYZ is a private firm in US. Due to remarkable growth in the Cab Indu
 
 Datasets contain information on 2 cab companies. Each file (data set) provided represents different aspects of the customer profile. XYZ is interested in using your actionable insights to help them identify the right company to make their investment.
 
-<b>Tasks</b> <br>
-     •  Identify relationships across the files <br>
-     •  Exploratory Data Analysis(EDA) <br>
-     •  Multiple hypothesis and investigate <br>
+<b>Tasks</b>
+* Identify relationships across the files
+* Exploratory Data Analysis(EDA)
+* Multiple hypothesis and investigate
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%202
 
@@ -29,8 +29,20 @@ Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%202
 ![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
 
 ### Project: G2M insight for Cab Investment firm
-Continuing work on Project "G2M insight for Cab Investment firm": <br>
-     • Development of recommendations for investing in the Cab industry. <br>
-     • Presentation of the completed work. <br>
+Continuing work on Project "G2M insight for Cab Investment firm":
+* Development of recommendations for investing in the Cab industry.
+* Presentation of the completed work.
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%203
+
+![Week 4](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 4 (22 June - 28 June)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### Deployment on Flask
+* Using the data from the previous weeks, I trained a Machine Learning model (XGBoost) to predict the Profit per Trip, taking into account various features (like "City", "Payment Mode", "Gender", "KM Travelled", "Date", etc.).
+* Then I deployed this model (created an API) using the __Flask framework__. This API allows you to use forecasting capabilities through HTTP requests.
+
+You can read about the deployment process and see several examples of using the model in production in the file ['Flask_Deployment_Document.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%204/Flask_Deployment_Document.pdf).
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%204
