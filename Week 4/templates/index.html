@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profit Prediction API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container mt-5">
+        
+        <h1 class="text-center">Predict Profit per Trip </h1>
+        <!-- Add the #result anchor to the action of the form -->
+        <form method="post" action="/predict#result">
+
+            <div class="form-group">
+                <label for="city">City:</label>
+                <select class="form-control" id="City" name="City" required>
+                    <option value="ATLANTA GA" {% if data and data['City'] == "ATLANTA GA" %} selected {% endif %} >ATLANTA GA</option>
+                    <option value="AUSTIN TX" {% if data and data['City'] == "AUSTIN TX" %} selected {% endif %} >AUSTIN TX</option>
+                    <option value="BOSTON MA" {% if data and data['City'] == "BOSTON MA" %} selected {% endif %} >BOSTON MA</option>
+                    <option value="CHICAGO IL" {% if data and data['City'] == "CHICAGO IL" %} selected {% endif %} >CHICAGO IL</option>
+                    <option value="DALLAS TX" {% if data and data['City'] == "DALLAS TX" %} selected {% endif %} >DALLAS TX</option>
+                    <option value="DENVER CO" {% if data and data['City'] == "DENVER CO" %} selected {% endif %} >DENVER CO</option>
+                    <option value="LOS ANGELES CA" {% if data and data['City'] == "LOS ANGELES CA" %} selected {% endif %} >LOS ANGELES CA</option>
+                    <option value="MIAMI FL" {% if data and data['City'] == "MIAMI FL" %} selected {% endif %} >MIAMI FL</option>
+                    <option value="NASHVILLE TN" {% if data and data['City'] == "NASHVILLE TN" %} selected {% endif %} >NASHVILLE TN</option>
+                    <option value="NEW YORK NY" {% if data and data['City']== "NEW YORK NY" %} selected {% endif %} >NEW YORK NY</option>
+                    <option value="ORANGE COUNTY" {% if data and data['City'] == "ORANGE COUNTY" %} selected {% endif %} >ORANGE COUNTY</option>
+                    <option value="PHOENIX AZ" {% if data and data['City'] == "PHOENIX AZ" %} selected {% endif %} >PHOENIX AZ</option>
+                    <option value="PITTSBURGH PA" {% if data and data['City'] == "PITTSBURGH PA" %} selected {% endif %} >PITTSBURGH PA</option>
+                    <option value="SACRAMENTO CA" {% if data and data['City'] == "SACRAMENTO CA" %} selected {% endif %} >SACRAMENTO CA</option>
+                    <option value="SAN DIEGO CA" {% if data and data['City'] == "SAN DIEGO CA" %} selected {% endif %} >SAN DIEGO CA</option>
+                    <option value="SEATTLE WA" {% if data and data['City'] == "SEATTLE WA" %} selected {% endif %} >SEATTLE WA</option>
+                    <option value="SILICON VALLEY" {% if data and data['City'] == "SILICON VALLEY" %} selected {% endif %} >SILICON VALLEY</option>
+                    <option value="TUCSON AZ" {% if data and data['City'] == "TUCSON AZ" %} selected {% endif %} >TUCSON AZ</option>
+                    <option value="WASHINGTON DC" {% if data and data['City'] == "WASHINGTON DC" %} selected {% endif %} >WASHINGTON DC</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Payment_Mode">Payment Mode:</label>
+                <select class="form-control" id="Payment_Mode" name="Payment_Mode" required>
+                    <option value="Card" {% if data and data['Payment_Mode'] == 'Card' %} selected {% endif %} >Card</option>
+                    <option value="Cash" {% if data and data['Payment_Mode'] == 'Cash' %} selected {% endif %}>Cash</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Gender">Gender:</label>
+                <select class="form-control" id="Gender" name="Gender" required>
+                    <option value="Male" {% if data and data['Gender'] == 'Male' %} selected {% endif %} >Male</option>
+                    <option value="Female" {% if data and data['Gender'] == 'Female' %} selected {% endif %} >Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Company">Company:</label>
+                <select class="form-control" id="Company" name="Company" required>
+                    <option value="Yellow Cab" {% if data and data['Company'] == 'Yellow Cab' %} selected {% endif %} >Yellow Cab</option>
+                    <option value="Pink Cab" {% if data and data['Company'] == 'Pink Cab' %} selected {% endif %} >Pink Cab</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="KM_Travelled">KM Travelled:</label>
+                <input type="number" class="form-control" id="KM_Travelled" name="KM_Travelled" step="any" value="{{ data['KM_Travelled'] if data else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="number" class="form-control" id="Age" name="Age" value="{{ data['Age'] if data else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Income">Income (USD/Month):</label>
+                <input type="number" class="form-control" step="any" id="Income" name="Income" value="{{ data['Income'] if data else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Year">Year:</label>
+                <input type="number" class="form-control" id="Year" name="Year" value="{{ data['Year'] if data else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Month">Month:</label>
+                <input type="number" class="form-control" id="Month" name="Month" value="{{ data['Month'] if data else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Day">Day:</label>
+                <input type="number" class="form-control" id="Day" name="Day" value="{{ data['Day'] if data else '' }}" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+        
+         <!-- Add id="result" to the element to scroll to it -->
+        {% if prediction is not none %}
+            <h2 id="result" class="text-center mt-4">Predicted Profit per Trip: {{ prediction }}$</h2>
+        {% endif %}
+    </div>
+
+</body>
+</html>
+
+
