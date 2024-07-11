@@ -46,3 +46,14 @@ Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%203
 You can read about the deployment process and see several examples of using the model in production in the file ['Flask_Deployment_Document.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%204/Flask_Deployment_Document.pdf).
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%204
+
+![Week 5](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 5 (29 June - 05 July)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### Heroku Cloud Deployment
+* Using the data and trained XGBoost model from the previous weeks, I performed Cloud Deployment using __Heroku__.
+
+You can read about the cloud deployment steps in the file ['Heroku_Cloud_Deployment.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%205/Heroku_Cloud_Deployment.pdf).
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%205
