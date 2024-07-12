@@ -57,3 +57,14 @@ Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%204
 You can read about the cloud deployment steps in the file ['Heroku_Cloud_Deployment.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%205/Heroku_Cloud_Deployment.pdf).
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%205
+
+![Week 6](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 6 (06 July - 12 July)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### File Ingestion & Schema Validation
+* Firstly, I took large size of data (2GB+) and applied different methods of reading like Dask, Modin, ray and Pandas to check the computational efficiency.
+* After that, I performed basic validation on the data columns and then validated the number of columns and column names in the ingested file using YAML.
+* Finally, I compressed the csv file into gz format and obtained a summary of the file.
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%206
