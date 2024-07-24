@@ -68,3 +68,23 @@ Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%205
 * Finally, I compressed the csv file into gz format and obtained a summary of the file.
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%206
+
+![Week 7](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 7 (13 July - 19 July)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### Project: Healthcare – Persistency of drug
+Pharmaceutical company ABC Pharma is interested in identifying the key factors that influence whether patients persist with their medication. Identifying factors that influence persistency is crucial for pharmaceutical companies to improve patient outcomes, reduce healthcare costs, and enhance their product offerings.
+
+The objective of this project is to understand and predict the persistency of a drug prescribed by physicians. Persistency, in this context, refers to whether a patient, based on his/her information, will follow the prescribed medication regimen over a certain period.
+
+<b>Tasks</b>
+* Problem Description
+* Business Understanding
+* Project Lifecycle and Deadlines
+* Data Collection
+* Data Intake Report
+
+You can read the Project Report in the file ['Project_report.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%207/Project_report.pdf).
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%207
