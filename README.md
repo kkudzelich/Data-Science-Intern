@@ -85,6 +85,21 @@ The objective of this project is to understand and predict the persistency of a 
 * Data Collection
 * Data Intake Report
 
-You can read the Project Report in the file ['Project_report.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%207/Project_report.pdf).
+You can read the Report for the 7th Week in the file ['Project_report.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%207/Project_report.pdf).
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%207
+
+![Week 8](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 8 (20 July - 26 July)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### Project: Healthcare – Persistency of drug
+Pharmaceutical company ABC Pharma is interested in identifying the key factors that influence whether patients persist with their medication. Identifying factors that influence persistency is crucial for pharmaceutical companies to improve patient outcomes, reduce healthcare costs, and enhance their product offerings.
+
+<b>Tasks</b>
+* Data Understanding
+* Approaches to Problem Processing
+
+You can read the Report for the 8th Week in the file ['Project_report_W8.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%208/Project_report_W8.pdf).
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%208
