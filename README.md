@@ -147,3 +147,17 @@ Pharmaceutical company ABC Pharma is interested in identifying the key factors t
 You can see the Presentation in the file ['Healthcare_EDA_presentation.pdf'](https://github.com/kkudzelich/Data-Science-Intern/blob/main/Week%2011/Healthcare_EDA_presentation.pdf).
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%2011
+
+![Week 12](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 12 (17 August - 23 August)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### Project: Healthcare – Persistency of drug
+Pharmaceutical company ABC Pharma is interested in identifying the key factors that influence whether patients persist with their medication. Identifying factors that influence persistency is crucial for pharmaceutical companies to improve patient outcomes, reduce healthcare costs, and enhance their product offerings.
+
+<b>Tasks</b>
+* Data Preprocessing
+* Modeling
+* Evaluation
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%2012
