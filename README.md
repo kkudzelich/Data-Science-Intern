@@ -161,3 +161,13 @@ Pharmaceutical company ABC Pharma is interested in identifying the key factors t
 * Evaluation
 
 Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%2012
+
+![Week 13](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+## Week 13 (24 August - 30 August)
+![ML](https://github.com/kkudzelich/Data-Science-Intern/assets/107845717/fe88e464-292b-4ede-b195-a7eae6d4aa2e)
+
+### Project: Healthcare – Persistency of drug
+
+Final project submission including Source Code, Application, Report and Presentation
+
+Link: https://github.com/kkudzelich/Data-Science-Intern/tree/main/Week%2013
